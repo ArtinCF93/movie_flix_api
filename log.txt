@@ -1,0 +1,168 @@
+URL: /index
+Timestamp: Fri Sep 03 2021 16:31:38 GMT-0700 (Pacific Daylight Time)
+
+URL: /index
+Timestamp: Fri Sep 03 2021 16:34:14 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 16:34:14 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/index.js
+Timestamp: Fri Sep 03 2021 16:34:14 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation.html
+Timestamp: Fri Sep 03 2021 16:34:25 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 16:34:25 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/test.js
+Timestamp: Fri Sep 03 2021 16:34:25 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation
+Timestamp: Fri Sep 03 2021 16:34:28 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation
+Timestamp: Fri Sep 03 2021 16:37:19 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 16:37:19 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation
+Timestamp: Fri Sep 03 2021 16:41:17 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 16:41:18 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation
+Timestamp: Fri Sep 03 2021 17:11:07 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation
+Timestamp: Fri Sep 03 2021 17:12:34 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 17:12:34 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/test.js
+Timestamp: Fri Sep 03 2021 17:12:34 GMT-0700 (Pacific Daylight Time)
+
+URL: /index
+Timestamp: Fri Sep 03 2021 17:14:37 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 17:14:37 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/index.js
+Timestamp: Fri Sep 03 2021 17:14:37 GMT-0700 (Pacific Daylight Time)
+
+URL: /
+Timestamp: Fri Sep 03 2021 17:17:47 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 17:17:48 GMT-0700 (Pacific Daylight Time)
+
+URL: /
+Timestamp: Fri Sep 03 2021 17:29:43 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 17:29:43 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation
+Timestamp: Fri Sep 03 2021 17:48:01 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 17:48:02 GMT-0700 (Pacific Daylight Time)
+
+URL: /index
+Timestamp: Fri Sep 03 2021 18:11:50 GMT-0700 (Pacific Daylight Time)
+
+URL: /index
+Timestamp: Fri Sep 03 2021 18:28:17 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:28:17 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/index.js
+Timestamp: Fri Sep 03 2021 18:28:18 GMT-0700 (Pacific Daylight Time)
+
+URL: /dov
+Timestamp: Fri Sep 03 2021 18:28:36 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:28:37 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/index.js
+Timestamp: Fri Sep 03 2021 18:28:37 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation.html
+Timestamp: Fri Sep 03 2021 18:28:39 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:28:39 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/test.js
+Timestamp: Fri Sep 03 2021 18:28:39 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation
+Timestamp: Fri Sep 03 2021 18:28:44 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:28:44 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/test.js
+Timestamp: Fri Sep 03 2021 18:28:44 GMT-0700 (Pacific Daylight Time)
+
+URL: /index
+Timestamp: Fri Sep 03 2021 18:28:46 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:28:47 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/index.js
+Timestamp: Fri Sep 03 2021 18:28:47 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation
+Timestamp: Fri Sep 03 2021 18:28:52 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:28:52 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/test.js
+Timestamp: Fri Sep 03 2021 18:28:52 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation
+Timestamp: Fri Sep 03 2021 18:34:20 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:34:20 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/test.js
+Timestamp: Fri Sep 03 2021 18:34:20 GMT-0700 (Pacific Daylight Time)
+
+URL: /index
+Timestamp: Fri Sep 03 2021 18:34:34 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:34:34 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/index.js
+Timestamp: Fri Sep 03 2021 18:34:34 GMT-0700 (Pacific Daylight Time)
+
+URL: /index
+Timestamp: Fri Sep 03 2021 18:37:09 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:37:09 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/index.js
+Timestamp: Fri Sep 03 2021 18:37:09 GMT-0700 (Pacific Daylight Time)
+
+URL: /documentation.html
+Timestamp: Fri Sep 03 2021 18:37:13 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/css/style.css
+Timestamp: Fri Sep 03 2021 18:37:13 GMT-0700 (Pacific Daylight Time)
+
+URL: /Users/toojo/Documents/movie_api/js/test.js
+Timestamp: Fri Sep 03 2021 18:37:13 GMT-0700 (Pacific Daylight Time)
+

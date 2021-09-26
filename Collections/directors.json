@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "6147a5a4dc868250994ebe37"
+  },
+  "Name": "Brian De Palma",
+  "Bio": "Brian De Palma is an American film director and screenwriter. With a career spanning over 50 years, he is best known for his work in the suspense, crime and psychological thriller genres.",
+  "Birth": {
+    "$date": {
+      "$numberLong": "-924800400000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6147a5e1dc868250994ebe38"
+  },
+  "Name": "George Lucas",
+  "Bio": "George Lucas  is an American film director, producer, screenwriter, and entrepreneur. Lucas is best known for creating the Star Wars and Indiana Jones franchises and founding Lucasfilm, LucasArts, and Industrial Light & Magic. He served as chairman of Lucasfilm before selling it to The Walt Disney Company in 2012.",
+  "Birth": {
+    "$date": {
+      "$numberLong": "-808938000000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6147a611dc868250994ebe39"
+  },
+  "Name": "Francis Ford Coppolla",
+  "Bio": "Francis Ford Coppolla is an American film director, producer, and screenwriter. He was a central figure in the New Hollywood filmmaking movement of the 1960s and 1970s. His accolades include five Academy Awards and six Golden Globe Awards",
+  "Birth": {
+    "$date": {
+      "$numberLong": "-969987600000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6147eee0921e904877666df6"
+  },
+  "Name": "Danny Leiner",
+  "Bio": "Danny Leiner was an American film and former television director. He was best known for directing the stoner comedy films Dude, Where's My Car? and Harold & Kumar Go to White Castle.",
+  "Birth": {
+    "$date": {
+      "$numberLong": "-272566800000"
+    }
+  },
+  "Death": {
+    "$date": "2018-10-13T07:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6147f37d921e904877666df7"
+  },
+  "Name": "Andrew Adamson",
+  "Bio": "Andrew Adamson is a New Zealand film director, producer, and screenwriter based in Los Angeles, where he directed the Academy Award-winning animated films Shrek and Shrek 2",
+  "Birth": {
+    "$date": {
+      "$numberLong": "-97347600000"
+    }
+  }
+}]

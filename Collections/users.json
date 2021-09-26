@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "61416a8b1d79cbfdef2fecd5"
+  },
+  "Name": "Chuck Smith",
+  "Username": "MobMovieFan31",
+  "Email": "Chucky3221@msn.com",
+  "Birthday": {
+    "$date": "1991-01-22T00:00:00Z"
+  },
+  "FavoriteMovies": [
+    {
+      "$oid": "61415fa7686c3ac16fc9de4d"
+    },
+    {
+      "$oid": "6141668d44b7a5a6f647d8e0"
+    }
+  ],
+  "Password": "Password"
+},{
+  "_id": {
+    "$oid": "61416adb1d79cbfdef2fecd6"
+  },
+  "Name": "Behfar Azimi",
+  "Username": "Behfar_Azimi",
+  "Email": "Behfar_Azimi@Gmail.com",
+  "Birthday": {
+    "$date": "1979-12-12T00:00:00Z"
+  },
+  "FavoriteMovies": [
+    {
+      "$oid": "614163c26ef86b7fa9f8d7a9"
+    },
+    {
+      "$oid": "614164509d1573417651f706"
+    }
+  ],
+  "Password": "Password"
+},{
+  "_id": {
+    "$oid": "6147f8a9921e904877666e15"
+  },
+  "Name": "Gloria Lopez",
+  "Username": "GloriusGirl11",
+  "Birthday": "1994-07-16T00:00:00.000+00:00",
+  "Email": "Gloria_Lopez@Gmail.com",
+  "FavoriteMovies": [
+    ""
+  ],
+  "Password": "Password"
+},{
+  "_id": {
+    "$oid": "6147f9e9921e904877666e16"
+  },
+  "Name": "Alan Grayson",
+  "UserName": "Al_GrayGray",
+  "Email": "Al_GrayGray@msn.com",
+  "FavoriteMovies": [
+    ""
+  ],
+  "Birthday": {
+    "$date": "1991-03-16T00:00:00Z"
+  },
+  "Password": "Password"
+},{
+  "_id": {
+    "$oid": "61491bd97d8da722cbde4c11"
+  },
+  "Name": "Artin Azimi",
+  "Username": "Artini_MovieFan31",
+  "Email": "Artin@yahoo.com",
+  "FavoriteMovies": [],
+  "__v": 0,
+  "Birthday": {
+    "$date": "1983-10-10T00:00:00Z"
+  },
+  "Password": "Password"
+},{
+  "_id": {
+    "$oid": "614e6513ff30fb22ec64e74a"
+  },
+  "Name": "Abby Ortiz",
+  "Username": "AbbOrtiz3",
+  "Password": "Password",
+  "Email": "abb321@gmail.com",
+  "FavoriteMovies": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "614e8efcddbd92d53e82161e"
+  },
+  "Name": "Jacob Ortiz",
+  "Username": "JJOrt568",
+  "Password": "Password",
+  "Email": "abb321@gmail.com",
+  "FavoriteMovies": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "614e9e0dea6feb9a96986a5d"
+  },
+  "Name": "Julio Jones",
+  "Username": "JJones11",
+  "Password": "Password",
+  "Email": "JJones11@gmail.com",
+  "FavoriteMovies": [],
+  "__v": 0
+}]

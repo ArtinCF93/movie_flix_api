@@ -1,0 +1,142 @@
+[{
+  "_id": {
+    "$oid": "61415d339d1034ccf81f2b0e"
+  },
+  "Genre": {
+    "$oid": "6147a0fadc868250994ebe35"
+  },
+  "Description": "2 stoners go on a journey to White castle",
+  "Director": {
+    "$oid": "6147e071921e904877666dd5"
+  },
+  "Featured": "false",
+  "ImagePath": "https://en.wikipedia.org/wiki/Harold_%26_Kumar_Go_to_White_Castle#/media/File:Harold_&_Kumar_Go_to_White_Castle.JPG",
+  "Title": "Harold and Kumar"
+},{
+  "_id": {
+    "$oid": "61415ea9a94cf371151fb6d7"
+  },
+  "Title": "Star Wars: A New Hope",
+  "Description": "The original Star Wars that started it all with the best villain of all time, Darth Vader.",
+  "Genre": {
+    "$oid": "6147cf3d921e904877666dbe"
+  },
+  "Director": {
+    "$oid": "6147a5e1dc868250994ebe38"
+  },
+  "ImagePath": "https://starwars.fandom.com/wiki/Star_Wars:_Episode_IV_A_New_Hope?file=Star_Wars_Style_A_poster_1977.jpg",
+  "Featured": true
+},{
+  "_id": {
+    "$oid": "61415fa7686c3ac16fc9de4d"
+  },
+  "Title": "Star Wars: The Empire Strikes Back",
+  "Description": "The adventure continues in this Star Wars sequel. Luke Skywalker (Mark Hamill), Han Solo (Harrison Ford), Princess Leia (Carrie Fisher) and Chewbacca (Peter Mayhew) face attack by the Imperial forces and its AT-AT walkers on the ice planet Hoth. While Han and Leia escape in the Millennium Falcon, Luke travels to Dagobah in search of Yoda. Only with the Jedi master's help will Luke survive when the dark side of the Force beckons him into the ultimate duel with Darth Vader (David Prowse).",
+  "Genre": {
+    "$oid": "6147cf3d921e904877666dbe"
+  },
+  "Director": {
+    "$oid": "6147a5e1dc868250994ebe38"
+  },
+  "ImagePath": "https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg",
+  "Featured": false
+},{
+  "_id": {
+    "$oid": "61416049f78759220c2879ba"
+  },
+  "Title": "Star Wars: The Return of the Jedi",
+  "Description": "Luke Skywalker (Mark Hamill) battles horrible Jabba the Hut and cruel Darth Vader to save his comrades in the Rebel Alliance and triumph over the Galactic Empire. Han Solo (Harrison Ford) and Princess Leia (Carrie Fisher) reaffirm their love and team with Chewbacca, Lando Calrissian (Billy Dee Williams), the Ewoks and the androids C-3PO and R2-D2 to aid in the disruption of the Dark Side and the defeat of the evil emperor..",
+  "Genre": {
+    "$oid": "6147cf3d921e904877666dbe"
+  },
+  "Director": {
+    "$oid": "6147a5e1dc868250994ebe38"
+  },
+  "ImagePath": "https://en.wikipedia.org/wiki/Return_of_the_Jedi#/media/File:Return_of_the_Jedi_(1997_re-release_poster).jpg",
+  "Featured": false
+},{
+  "_id": {
+    "$oid": "614163c26ef86b7fa9f8d7a9"
+  },
+  "Title": "The Godfather",
+  "Description": "Widely regarded as one of the greatest films of all time, this mob drama, based on Mario Puzo's novel of the same name, focuses on the powerful Italian-American crime family of Don Vito Corleone (Marlon Brando). When the don's youngest son, Michael (Al Pacino), reluctantly joins the Mafia, he becomes involved in the inevitable cycle of violence and betrayal. Although Michael tries to maintain a normal relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the family business.",
+  "Director": {
+    "$oid": "6147a611dc868250994ebe39"
+  },
+  "ImagePath": "https://en.wikipedia.org/wiki/The_Godfather#/media/File:Godfather_ver1.jpg",
+  "Featured": false,
+  "MovieID": 5,
+  "Genre": {
+    "$oid": "6147a12cdc868250994ebe36"
+  }
+},{
+  "_id": {
+    "$oid": "614164509d1573417651f706"
+  },
+  "Title": "The Godfather 2",
+  "Description": "The compelling sequel to The Godfather, contrasting the life of Corleone father and son. Traces the problems of Michael Corleone (Al Pacino) in 1958 and that of a young immigrant Vito Corleone (Robert De Niro) in 1917's Hell's Kitchen. Michael survives many misfortunes and Vito is introduced to a life of crime.",
+  "Genre": {
+    "$oid": "6147a12cdc868250994ebe36"
+  },
+  "Director": {
+    "$oid": "6147a611dc868250994ebe39"
+  },
+  "ImagePath": "https://en.wikipedia.org/wiki/The_Godfather_Part_II#/media/File:Godfather_part_ii.jpg",
+  "Featured": false
+},{
+  "_id": {
+    "$oid": "6141654644b7a5a6f647d8de"
+  },
+  "Title": "Carito’s Way",
+  "Description": "A free man after years in prison, Carlito Brigante (Al Pacino) intends to give up his criminal ways, but it's not long before the ex-con is sucked back into the New York City underworld. Reconnecting with his dancer girlfriend, Gail (Penelope Ann Miller), Carlito gets entangled in the shady dealings of his friend Dave Kleinfeld (Sean Penn), who also serves as his lawyer. When Carlito and Kleinfeld run afoul of shifty gangster Benny Blanco (John Alberto Leguizamo), it sets them on a dangerous path.",
+  "Genre": {
+    "$oid": "6147a12cdc868250994ebe36"
+  },
+  "Director": {
+    "$oid": "6147a5a4dc868250994ebe37"
+  },
+  "ImagePath": "https://en.wikipedia.org/wiki/Carlito%27s_Way#/media/File:Carlito's_Way.jpg",
+  "Featured": false
+},{
+  "_id": {
+    "$oid": "614165dc44b7a5a6f647d8df"
+  },
+  "Title": "Scarface",
+  "Description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana (Al Pacino) stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
+  "Genre": {
+    "$oid": "6147a12cdc868250994ebe36"
+  },
+  "Director": {
+    "$oid": "6147a5a4dc868250994ebe37"
+  },
+  "ImagePath": "https://en.wikipedia.org/wiki/Scarface_(1983_film)#/media/File:Scarface_-_1983_film.jpg",
+  "Featured": false
+},{
+  "_id": {
+    "$oid": "6141668d44b7a5a6f647d8e0"
+  },
+  "Title": "Shrek",
+  "Description": "Once upon a time, in a far away swamp, there lived an ogre named Shrek (Mike Myers) whose precious solitude is suddenly shattered by an invasion of annoying fairy tale characters. They were all banished from their kingdom by the evil Lord Farquaad (John Lithgow). Determined to save their home -- not to mention his -- Shrek cuts a deal with Farquaad and sets out to rescue Princess Fiona (Cameron Diaz) to be Farquaad's bride. Rescuing the Princess may be small compared to her deep, dark secret.",
+  "Genre": {
+    "$oid": "6147e412921e904877666dd8"
+  },
+  "Director": {
+    "$oid": "6147f37d921e904877666df7"
+  },
+  "ImagePath": "https://en.wikipedia.org/wiki/Shrek#/media/File:Shrek.jpg",
+  "Featured": false
+},{
+  "_id": {
+    "$oid": "614166e144b7a5a6f647d8e1"
+  },
+  "Title": "Shrek 2",
+  "Description": "After returning from their honeymoon and showing home movies to their friends, Shrek and Fiona learn that her parents have heard that she has married her true love and wish to invite him to their kingdom, called Far Far Away. The catch is: Fiona's parents are unaware of the curse that struck their daughter and have assumed she married Prince Charming, not a 700-pound ogre with horrible hygiene and a talking donkey pal.",
+  "Genre": {
+    "$oid": "6147ede3921e904877666def"
+  },
+  "Director": {
+    "$oid": "6147f37d921e904877666df7"
+  },
+  "ImagePath": "https://en.wikipedia.org/wiki/Shrek_2#/media/File:Shrek_2_poster.jpg",
+  "Featured": false
+}]
