@@ -11,7 +11,7 @@ let mongoose = require('mongoose');
 // Cross-Origin Resource Sharing
 let cors = require('cors');
 
-let allowedOrigins = ['http://localhost:3000', 'https://sheltered-plains-11969.herokuapp.com/'];
+let allowedOrigins = ['http://localhost:3000', 'https://quiet-headland-10477.herokuapp.com/'];
 
 app.use(cors(
   {
