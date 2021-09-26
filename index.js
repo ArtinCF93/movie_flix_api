@@ -11,7 +11,7 @@ let mongoose = require('mongoose');
 // Cross-Origin Resource Sharing
 let cors = require('cors');
 
-let allowedOrigins = ['http://localhost:3000', 'https://vast-river-95072.herokuapp.com/'];
+let allowedOrigins = ['http://localhost:3000', 'https://sheltered-plains-11969.herokuapp.com/'];
 
 app.use(cors(
   {
@@ -43,9 +43,9 @@ const Genres = Models.Genre;
 
 // make this statement to connect to the database you want to grab the data from.
 // in this case, the database is called movieFlixDB
-mongoose.connect('mongodb://localhost:27017/movieFlixDB', { useNewUrlParser: true, useUnifiedTopology: true });
+// mongoose.connect('mongodb://localhost:27017/movieFlixDB', { useNewUrlParser: true, useUnifiedTopology: true });
 
-// mongoose.connect( process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect( process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 app.use(express.json());
