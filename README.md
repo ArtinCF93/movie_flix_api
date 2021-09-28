@@ -1,4 +1,4 @@
-Project name: movie_api
+Project name: movie_flix_api
 
 Description: A movie app that shows 10 movies along with genre and director details and enables registered users to create and modify their own favrite movie lists.
 
