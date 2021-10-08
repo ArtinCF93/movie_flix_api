@@ -61,12 +61,14 @@ app.get('/', function (request, response) {
 });
 
 // Getting a list of movies from Database
-app.get('/movies',passport.authenticate('jwt', {session: false}), function (request, response) {
-  Movies.find()
-    .then(function(movies){
+app.get('/movies',
+//        passport.authenticate('jwt', {session: false}), 
+        function (request, response) {
+  Movies.find() //must include a .then and .catch
+    .then(function(movies){ //.then is dedicated for the resonse upon a fullfillment
       response.status(201).json(movies);
     })
-    .catch(function(err){
+    .catch(function(err){ //.catch is dedicated for an error response for a failure
       console.error(err);
       response.status(500).send('Error: ' + err);
     });
