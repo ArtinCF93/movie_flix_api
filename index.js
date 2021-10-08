@@ -56,9 +56,9 @@ app.use(express.static('public'));
 
 
 
-app.get('/', function (request, response) {
-  response.send('Welcome to Mobflix!');
-});
+// app.get('/', function (request, response) {
+//   response.send('Welcome to Mobflix!');
+// });
 
 // Getting a list of movies from Database
 app.get('/movies',
