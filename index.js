@@ -11,7 +11,7 @@ let mongoose = require('mongoose');
 // Cross-Origin Resource Sharing
 let cors = require('cors');
 
-let allowedOrigins = ['http://localhost:3000', 'https://quiet-headland-10477.herokuapp.com/', 'http://localhost:1234'];
+let allowedOrigins = ['http://localhost:3000', 'https://quiet-headland-10477.herokuapp.com/', 'http://localhost:1234', 'https://en.wikipedia.org'];
 
 app.use(cors(
   {
@@ -26,6 +26,7 @@ app.use(cors(
 }
 ));
 
+app.use(express.json());
 
 // /.models.js is the file that refers to the created models. Is used as a module now. 
 let Models = require('./models.js');
@@ -45,10 +46,8 @@ const Genres = Models.Genre;
 // in this case, the database is called movieFlixDB
 // mongoose.connect('mongodb://localhost:27017/movieFlixDB', { useNewUrlParser: true, useUnifiedTopology: true });
 
-mongoose.connect( process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect( process.env.CONNECTION_URI || 'mongodb://localhost:27017/movieFlixDB' , { useNewUrlParser: true, useUnifiedTopology: true });
 
-
-app.use(express.json());
 
 app.use(morgan('common'));
 
