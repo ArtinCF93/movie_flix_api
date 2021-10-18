@@ -62,7 +62,7 @@ app.get('/', function (request, response) {
 
 // Getting a list of movies from Database
 app.get('/movies',
-//        passport.authenticate('jwt', {session: false}), 
+        passport.authenticate('jwt', {session: false}), 
         function (request, response) {
   Movies.find() //must include a .then and .catch
     .then(function(movies){ //.then is dedicated for the resonse upon a fullfillment
