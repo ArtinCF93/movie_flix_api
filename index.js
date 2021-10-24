@@ -102,8 +102,8 @@ app.get('/genres', passport.authenticate('jwt', {session: false}),function (requ
 
 
 // Getting a specific genre from Database
-app.get('/genres/:Name', passport.authenticate('jwt', {session: false}), function (request, response) {
-  Genres.findOne({Name: request.params.Name})
+app.get('/genres/:id', passport.authenticate('jwt', {session: false}), function (request, response) {
+  Genres.findOne({_id: request.params.id})
       .then(function(genre){
         response.status(201).json(genre);
       })
