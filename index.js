@@ -128,8 +128,8 @@ app.get('/directors', passport.authenticate('jwt', {session: false}), function (
 
 
 // Getting a specific director from Database
-app.get('/directors/:Name', passport.authenticate('jwt', {session: false}), function (request, response) {
-  Directors.findOne({Name: request.params.Name})
+app.get('/directors/:id', passport.authenticate('jwt', {session: false}), function (request, response) {
+  Directors.findOne({_id: request.params.id})
       .then(function(director){
         response.status(201).json(director);
       })
