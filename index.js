@@ -213,8 +213,15 @@ app.post('/users',
 
 // update a user details
 app.put('/users/:Username', passport.authenticate('jwt', { session: false }), (req, res) => {
+  let hashedPassword = Users.hashPassword(req.body.Password);
   Users.findOneAndUpdate({ Username: req.params.Username },
-    req.body,
+    {
+      Name: req.body.Name,
+      Username: req.body.Username,
+      Password: hashedPassword,
+      Email: req.body.Email,
+      Birthday: req.body.Birthday
+    },
     { new: true }, // This line makes sure that the updated document is returned
     (err, updatedUser) => {
       if (err) {
