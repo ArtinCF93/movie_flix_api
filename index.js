@@ -11,7 +11,7 @@ let mongoose = require('mongoose');
 // Cross-Origin Resource Sharing
 let cors = require('cors');
 
-let allowedOrigins = ['http://localhost:3000', 'https://quiet-headland-10477.herokuapp.com/', 'http://localhost:1234', 'https://en.wikipedia.org'];
+let allowedOrigins = ['http://localhost:3000', 'https://quiet-headland-10477.herokuapp.com/', 'http://localhost:1234', 'https://en.wikipedia.org', 'myflyx.netlify.app'];
 
 app.use(cors(
   //  {
