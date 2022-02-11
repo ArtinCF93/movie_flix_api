@@ -11,7 +11,6 @@ let movieSchema = mongoose.Schema({
     Director: {
       type: mongoose.Schema.Types.ObjectId, ref: 'Director'
     },
-    Actors: [String],
     ImagePath: String,
     Featured: Boolean
   });
