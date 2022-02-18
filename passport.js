@@ -18,14 +18,14 @@ let Users = Models.User,
         return callback(error);
       }
 
+      if (!user) {
+        console.log("incorrect username");
+        return callback(null, false, { message: "Incorrect username." });
+      }
+
       if (!user.validatePassword(password)) {
         console.log('incorrect password');
         return callback(null, false, {message: 'Incorrect password.'});
-      }
-  
-      if (!user) {
-        console.log('incorrect username');
-        return callback(null, false, {message: 'Incorrect username.'});
       }
   
       console.log('Successful Login');
