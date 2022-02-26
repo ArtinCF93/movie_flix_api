@@ -23,6 +23,7 @@ let Users = Models.User,
         return callback(null, false, { message: "Incorrect username." });
       }
 
+      //this comes first because the validatePassword function assumes user is an object
       if (!user.validatePassword(password)) {
         console.log('incorrect password');
         return callback(null, false, {message: 'Incorrect password.'});
