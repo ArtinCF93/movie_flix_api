@@ -15,8 +15,7 @@ let allowedOrigins = [
   "http://localhost:4200",
   "http://localhost:1234",
   "https://myflyx.netlify.app",
-  "https://artincf93.github.io/",
-  "https://artincf93.github.io/myFlix-Angular-client/"
+  "https://artincf93.github.io",
 ];
 
 app.use(
