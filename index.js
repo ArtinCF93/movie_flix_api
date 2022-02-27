@@ -61,7 +61,7 @@ app.use(express.static('public'));
 
 
 app.get('/', function (request, response) {
-  response.send('Welcome to Mobflix!');
+  response.send('Welcome to MyFlyx API!');
 });
 
 // Getting a list of movies from Database
