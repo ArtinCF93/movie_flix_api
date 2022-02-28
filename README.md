@@ -20,7 +20,7 @@ Password: Testing
 		  <tr>
 			<th scope="col">HTTP Method</th>
 			<th scope="col">End Point URL</th>
-			<th scope="col">Request</th>
+			<th scope="col">Request Parameter</th>
 			<th scope="col">Response</th>
 			<th scope="col">Format of Response</th>
 		  </tr>
@@ -74,8 +74,8 @@ Password: Testing
 		  </tr>
 		  <tr>
 			<th scope="row">GET</th>
-			<td>' /genres/:Name '</td>
-			<td>Name of Genre</td>
+			<td>' /genres/:id '</td>
+			<td>_id of genre</td>
 			<td>A JSON object holding data of a single Genre,<br>
 				Example:<br>
 					{<br>
@@ -95,8 +95,8 @@ Password: Testing
 		  </tr>
 		  <tr>
 			<th scope="row">GET</th>
-			<td>' /directors/:Name '</td>
-			<td>Name of Director</td>
+			<td>' /directors/:id '</td>
+			<td>_id of Director</td>
 			<td>A JSON object holding data of a single Director,<br>
 				Example:<br>
 					{<br>
@@ -159,15 +159,15 @@ Password: Testing
 		  </tr>
 		  <tr>
 			<th scope="row">PUT</th>
-			<td>' /users/:Username/movies/:MovieID '</td>
-			<td>Username of User, ID of Movie</td>
+			<td>' /users/:Username/movies/:id '</td>
+			<td>Username of User, _id of Movie</td>
 			<td>Addition of JSON object of a single movie to the "FavoriteMovies" array</td>
 			<td>JSON ObjectId</td>
 		  </tr>
 		  <tr>
 			<th scope="row">DELETE</th>
-			<td>' /users/:Username/movies/:MovieID '</td>
-			<td>Username of User, ID of Movie</td>
+			<td>' /users/:Username/movies/:id '</td>
+			<td>Username of User, _id of Movie</td>
 			<td>Deletion of JSON object of single move from the </td>
 			<td>NA</td>
 		  </tr>
