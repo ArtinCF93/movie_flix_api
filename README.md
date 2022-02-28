@@ -8,23 +8,7 @@ Usage: After navigating to the website, the opening prompt will appear. Navigate
 
 Test credentials: 
 
-[{
-
-"_id":"621c0371b3e62c8fc677fe37"},
-
-"Name":"Test",
-
-"Username":"Testuser",
-
-"Password":"$2b$10$Z5NqDcY5rl9/rMtQbyWws.v/F9vZEZVfD1ECNhq2MrJpSIvUVH4U6",
-
-"Email":"test@gmail.com",
-
-"Birthday":{"$date":{"$numberLong":"662688000000"}},
-
-"FavoriteMovies":[]
-
-}]
+Username: Testuser
 
 Password: Testing
 
