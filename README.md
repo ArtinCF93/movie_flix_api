@@ -8,15 +8,23 @@ Usage: After navigating to the website, the opening prompt will appear. Navigate
 
 Test credentials: 
 
-[
-{"_id":"621c0371b3e62c8fc677fe37"},
+[{
+
+"_id":"621c0371b3e62c8fc677fe37"},
+
 "Name":"Test",
+
 "Username":"Testuser",
+
 "Password":"$2b$10$Z5NqDcY5rl9/rMtQbyWws.v/F9vZEZVfD1ECNhq2MrJpSIvUVH4U6",
+
 "Email":"test@gmail.com",
+
 "Birthday":{"$date":{"$numberLong":"662688000000"}},
+
 "FavoriteMovies":[]
-]
+
+}]
 
 Password: Testing
 
@@ -42,10 +50,15 @@ GET ‘/users/:Username’ returns a single user’s data based on the Username 
 POST ‘/users’ creates a new user based on the details provided in a json body object as such;
 
 {
+            
             "Name": "Ben Turner",
+            
             "Username": "BenTurner",
+            
             "Password": "Password",
+            
             "Email": "benturner@gmail.com"
+            
  }
  
 PUT ‘/users/:Username’ updates a specific user’s details.User is specified based on the Username provided in the parameter. Details are updated based on the information provided in a json body object, the same as above.
