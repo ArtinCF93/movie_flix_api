@@ -1,4 +1,5 @@
-#MovieFlix API 
+<h1>MovieFlix API</h1>
+<hr>
 
 https://quiet-headland-10477.herokuapp.com/
 
@@ -20,7 +21,8 @@ Test credentials:
 Password: Testing
 
 
-#Features and Endpoints
+<h1>Features and Endpoints</h1>
+<hr>
 
 GET: ‘/movies’ returns a list of all movies from database
 
