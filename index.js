@@ -14,7 +14,7 @@ let allowedOrigins = [
   "http://localhost:3000",
   "http://localhost:4200",
   "http://localhost:1234",
-  "https://myflyx.netlify.app",
+  "https://mvflix.netlify.app",
   "https://artincf93.github.io",
 ];
 
