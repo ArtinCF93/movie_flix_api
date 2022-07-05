@@ -21,7 +21,7 @@ let movieSchema = mongoose.Schema({
     Password: {type: String, required: true},
     Email: {type: String, required: true},
     Birthday: Date,
-    FavoriteMovies: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Movie' }]
+    FavoriteMovies: [{type: String, required: true}]
   });
 
   userSchema.statics.hashPassword = function(password) {
@@ -49,7 +49,8 @@ let movieSchema = mongoose.Schema({
     });
   
   // Creates models out of the above designed schema. One line for each.
-  // First paramter for the ( , ) is set as the name of the schema, while the second is used to refer to which schema is being used.  
+  // First paramter for the ( , ) is set as the name of the schema, while the second is used to refer to which schema is being used.
+  // Any title will be returned on the other side lowercase and pluralized; ex. Movie will be returned as db.movies
   let Movie = mongoose.model('Movie', movieSchema);
   let User = mongoose.model('User', userSchema);
   let Genre = mongoose.model('Genre', genreSchema);

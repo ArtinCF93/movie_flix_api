@@ -1,9 +1,14 @@
 // must require all modules, and frameworks
 const { Router, request } = require('express');
-let express = require('express');
+let express = require('express'); //imports express module locally
 let morgan = require('morgan');
 let uuid = require('uuid');
+
+
+// line declares a variable that encapsulates Express’s functionality to configure your web server. 
+// This new variable is what you’ll use to route your HTTP requests and responses.
 let app = express();
+
 let mongoose = require('mongoose');
 // const bcrypt = require('bcrypt');
 
@@ -35,7 +40,8 @@ app.use(express.json());
 
 // /.models.js is the file that refers to the created models. Is used as a module now. 
 let Models = require('./models.js');
-let auth = require('./auth.js')(app);
+let auth = require('./authUser')(app);
+let auth2 = require('./authBreeder')(app);
 let passport = require('passport');
 let passportFile = require('./passport.js');
 let { check, validationResult } = require('express-validator');
