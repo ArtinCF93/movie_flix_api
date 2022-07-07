@@ -14,16 +14,17 @@ let mongoose = require('mongoose');
 
 // Cross-Origin Resource Sharing
 const cors = require('cors');
-app.use(cors({ origin: true }));
+// app.use(cors({ origin: true }));
+app.use(cors({ origin: "http://localhost:3000" }));
 // let cors = require('cors');
-// let allowedOrigins = [
-//   "http://localhost:8080",
-//   "http://localhost:3000",
-//   "http://localhost:4200",
-//   "http://localhost:1234",
-//   "https://mvflix.netlify.app",
-//   "https://artincf93.github.io",
-// ];
+let allowedOrigins = [
+  "http://localhost:8080",
+  "http://localhost:3000",
+  "http://localhost:4200",
+  "http://localhost:1234",
+  "https://mvflix.netlify.app",
+  "https://artincf93.github.io",
+];
 
 // app.use(
 //   cors(
