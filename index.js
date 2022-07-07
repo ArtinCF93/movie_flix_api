@@ -25,7 +25,7 @@ let allowedOrigins = [
   "https://mvflix.netlify.app",
   "https://artincf93.github.io",
 ];
-
+// plese deploy this code
 // app.use(
 //   cors(
 //     {
@@ -45,8 +45,8 @@ app.use(express.json());
 
 // /.models.js is the file that refers to the created models. Is used as a module now. 
 let Models = require('./models.js');
-let auth = require('./authUser')(app);
-let auth2 = require('./authBreeder')(app);
+// let auth = require('./authUser')(app);
+// let auth2 = require('./authBreeder')(app);
 let passport = require('passport');
 let passportFile = require('./passport.js');
 let { check, validationResult } = require('express-validator');
