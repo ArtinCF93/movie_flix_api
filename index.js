@@ -45,7 +45,7 @@ app.use(express.json());
 
 // /.models.js is the file that refers to the created models. Is used as a module now. 
 let Models = require('./models.js');
-// let auth = require('./authUser')(app);
+let auth = require('./auth')(app);
 // let auth2 = require('./authBreeder')(app);
 let passport = require('passport');
 let passportFile = require('./passport.js');
