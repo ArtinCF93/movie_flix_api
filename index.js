@@ -251,23 +251,27 @@ app.put('/users/:Username', passport.authenticate('jwt', { session: false }), (r
 });
 
 
-// adding a favorite movie to user list
-app.post('/users/:Username/movies/:id', passport.authenticate('jwt', { session: false }), (req, res) => {
-  Users.findOneAndUpdate({ Username: req.params.Username }, {
-    $push: { FavoriteMovies: req.params.id }
-  },
-    { new: true }, // This line makes sure that the updated document is returned
-    (err, updatedUser) => {
-      if (err) {
-        console.error(err);
-        res.status(500).send('Error: ' + err);
-      } else {
-        res.json(updatedUser);
-      }
-    });
+// add a favorite movie; do not add duplicates
+app.post('/users/:Username/movies/:id', passport.authenticate('jwt', { session: false }), async (request, response) => {
+  try {
+    let user = await Users.findOne({ Username: request.params.Username, FavoriteMovies: request.params.id });
+    console.log('user', user)
+    if (user) { //if there is a matching movie id, return a message saying the user already exists.
+      return response.status(400).send(request.params.id + ' is already associated with an account');
+    }
+    let newUser = await Users.findOneAndUpdate({ Username: request.params.Username }, {
+      $push: { FavoriteMovies: request.params.id }
+    },
+      { new: true });
+    return response.send(newUser);
+  }
+  catch (e) {
+    return response.status(400).send(e.message);
+  }
 });
 
 
+// delete favorite movie
 app.delete('/users/:Username/movies/:id', passport.authenticate('jwt', { session: false }), (req, res) => {
   Users.findOneAndUpdate({ Username: req.params.Username }, {
     $pull: { FavoriteMovies: req.params.id }
@@ -282,6 +286,7 @@ app.delete('/users/:Username/movies/:id', passport.authenticate('jwt', { session
       }
     });
 });
+
 
 // Delete a user by name
 app.delete('/users/:Username', passport.authenticate('jwt', { session: false }), (req, res) => {
