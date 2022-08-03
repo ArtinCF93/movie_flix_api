@@ -22,7 +22,7 @@ let allowedOrigins = [
   "http://localhost:3000",
   "http://localhost:4200",
   "http://localhost:1234",
-  "https://mvflix.netlify.app",
+  "https://moflixmovies.netlify.app",
   "https://artincf93.github.io",
 ];
 
